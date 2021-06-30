@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="./src/css/style.css" type="text/css" />
+</head>
+<body>
+    <section id="global" class="container">
+        <!-- CONTAINER ANIMATIONS -->
+        <div class="container animation">
+            <h2>Welcome</h2>
+            <p>If you have not yet registered, do so now.</p>
+            <a href="./src/pages/register.html">Sign up</a>
+        </div>
+
+        <div class="container login-screen">
+            <!-- CONTAINER FORMULÁRIO -->
+            <fieldset>
+                <form id="form" class="container">
+                    <input type="email" name="email" id="email" placeholder="E-mail" required />
+
+                    <!-- INPUT SENHA -->
+                    <input type="password" name="senha" id="senha" placeholder="Password" required />
+
+                    <!-- INPUT SUBMIT -->
+                    <input class="submit" type="submit" value="sign in" />
+                </form>
+            </fieldset>
+
+            <!-- CONTAINNER BTNS REGISTRAR E RECUPERAR SENHA -->
+            <div class="container btns">
+                <a href="./src/pages/register.html">Register</a>
+                <a href="./src/pages/register.html">Password</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* CONTAINER GLOBAL */
+#global {
+  height: 100vh;
+}
+
+/* CONTAINER ANIMATIONS */
+#global .animation {
+  height: 100%;
+  background-color: #58af9c;
+  text-align: center;
+  color: #fff;
+  padding: 15px 3%;
+}
+#global .animation h2 {
+  font-size: 250%;
+}
+#global .animation > p {
+  margin: 15px 0px;
+}
+#global .animation a {
+  width: auto;
+  padding: 10px 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+#global .animation a:hover {
+  background-color: #8cb8ae;
+  border: solid 2px rgb(230, 250, 246);
+  transition: 0.4s;
+}
+
+
+/* CONTAINER LOGIN*/
+#global .login-screen {
+  height: 100vh;
+  padding: 25px 3%;
+}
+
+/* FORMULÁRIO */
+#form input {
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+}
+::placeholder {
+  background-color: #ecf0f1;
+  color: #868895;
+}
+#form .submit {
+  background-color: #58af9c;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.7s;
+}
+#form .submit:hover {
+  opacity: 0.7;
+}
+
+/* CONTAINER BTNS */
+#global .btns {
+  flex-direction: row;
+  justify-content: space-between;
+}
+#global .btns a {
+  width: auto;
+  padding: 10px 0px;
+  color: #868895;
+  cursor: pointer;
+}
+#global .btns a:hover {
+  opacity: 0.7;
+}
+
+/* CSS MEDIA */
+@media (min-width: 760px) {
+  #global {
+    flex-direction: row;
+  }
+  #global .animation {
+    max-width: 40%;
+  }
+}
